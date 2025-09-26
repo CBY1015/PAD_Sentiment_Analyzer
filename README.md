@@ -52,11 +52,14 @@ P-A-D 模型（也稱為**維度情緒模型**）是心理學中一個廣泛使�
 
 ```bash
 pip install pandas spacy scipy
-3. 下載 spaCy 詞向量模型
+```
+
+### 3. 下載 spaCy 詞向量模型
 本專案依賴於 en_core_web_md 模型來獲取單字的詞向量和詞性標註：
 
-Bash
-
+```bash
 python -m spacy download en_core_web_md
-4. 詞典檔案
-注意： ANEW 詞典檔案 (ANEW_with_POS.csv) 已包含在您的 GitHub Repository 中，無需額外下載或設定。請確保主程式碼中 load_anew_with_pos 函式的參數與實際檔案名稱匹配。
+```
+
+### 4. 詞典檔案
+注意： ANEW 詞典檔案 ('ANEW_with_POS.csv') 已包含在您的 GitHub Repository 中，無需額外下載或設定。請確保主程式碼中 'load_anew_with_pos' 函式的參數與實際檔案名稱匹配。
