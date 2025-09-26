@@ -5,7 +5,7 @@ A robust sentiment analysis tool based on the Pleasure-Arousal-Dominance (PAD) m
 
 ## 專案概述
 
-這個 Python 專案提供了一個強大且魯棒的情緒分析工具，用於評估英文文本的 **Pleasure-Arousal-Dominance (P-A-D) 維度情緒**。
+這個 Python 專案提供了一個情緒分析工具，用於評估英文文本的 **Pleasure-Arousal-Dominance (P-A-D) 維度情緒**。
 
 **核心優勢：**
 * **整合 ANEW 詞典**：專案內部已包含 **ANEW (Affective Norms for English Words)** 詞典作為情緒基準。
